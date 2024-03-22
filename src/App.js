@@ -1,17 +1,10 @@
 import "./App.css";
-import MyNavbar from "./components/MyNavbar";
-import MainSection from "./components/MainSection";
+import MainContent from "./components/MainContent";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import logo from "../public/assets/image.png";
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <MyNavbar />
-        <MainSection />
-      </header>
-    </div>
-  );
+  return <MainContent />;
 }
 
 export default App;
